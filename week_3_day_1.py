@@ -50,24 +50,38 @@
 # # Review
 # create variables for the following :
 # 1. age
+age= 16 #integer variable
 # 2. name
+name= "Diego" #string variable
 # 3. song
+song= "crazy story"#string variable
 # 4. food
+food="tacos"#string variable
 # 5. number
-
+number= 10 #integer variable
 
 # #now include the variables you just made print in the following...
 
 
 # Once upon a time, there was a [age] old coder named [name].
-
+#concatatnation + around your variables
+print("Once upon a time, there was a " + str(age) + " old coder named " + name + ".")
+print("there was a number " + str(number) + " as well")
+print("Their was a " +str(age)+ " year old and and their favorite number is " +str(number)+ " aswell") 
+date_of_birth=2007
+number2=123
+number3=124
+number4=125
+number5=126
+print("my birth year is "+str(date_of_birth)+ " and there are 4 numbers that I like "+str(number2)+", "+str(number3)+", "+str(number4)+" and " +str(number5)) 
+print(f"the date of birth is {date_of_birth} and the number is {number2} and the number is {number3} and the number is {number4} and the number is {number5}")
 
 # [name] liked to hum the song [song] while coding. It was so annoying that their teammates would throw [food] until [name] would stop singing.
-
+print(f"{name} liked to hum the song {song} while coding. It was so annoying that their teammates would throw {food} until {name} would stop singing.")
 
 # Still, [name] was the best coder on the team and could write [number] lines of code every day. Maybe [song] was [name]’s secret power?
 ##########################################################################################
-
+print(f"Still, {name} was the best coder on the team and could write {number} lines of code every day. Maybe {song} was {name}’s secret power?")
 
 
 
