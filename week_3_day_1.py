@@ -241,13 +241,22 @@ print(round(num1,num2))
 
 
 
-
-
+name= input("what is your name?")
+print ("hello",name)
+num1= int(input("enter a number:"))
+num2= int(input("enter another number:"))
+print(num1-num2)
+print(num1 / num2)
+print(abs(num1))
+print(floor(num2))
+print(ceil(num2))
+print(sqrt(num2))
 
 
 ##########################################################################################
 # # mad libs game
 # print("Roses are {color}")
+
 # print("{plural noun} are blue")
 # print("I love {celebrity}")
 # # On to codehs.com
